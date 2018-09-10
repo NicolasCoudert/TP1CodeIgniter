@@ -9,6 +9,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>FUCK THE WORLD<h1>
+    <h1>FUCK THE WORLD ! <?php echo $ville ?> IS A BITCH WITH <?php echo $score1 ?> DILDOS  <h1>
 </body>
 </html>
