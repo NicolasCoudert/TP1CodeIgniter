@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
-    <h1>FUCK THE WORLD ! <?php echo $ville ?> IS A BITCH WITH <?php echo $score1 ?> DILDOS  <h1>
+    <?php
+
+    echo "<ha>Bienvenu<h1>";
+
+    foreach($lesCateg as $uneCateg)
+    {
+        echo "<p>".$uneCateg->idCateg." - ".$uneCateg->nomCateg."<p>";
+    }
+
+    ?>
 </body>
 </html>
